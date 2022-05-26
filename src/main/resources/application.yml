@@ -1,0 +1,14 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kotlin
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  jackson:
+    serialization:
+      indent_output: true
